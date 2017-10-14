@@ -9,30 +9,25 @@ body {
 .allign{
   text-align: center;
 }
-#header {
-  padding-bottom: -10px;
-}
-.headerh1 {
+
+h1 {
   font-size: 70px;
   margin-bottom: 30px;
 }
 
-.headerh2 {
+h2 {
   font-size: 32px;
+  font-weight: bold;
 }
-.headerh3 {
+
+h3 {
   font-size: 23px;
 }
-.headerh4 {
+
+#nav,li {
   font-size: 18px;
 }
-.headerh5 {
-  font-size: 14px;
-}
-.headerh6 {
-  font-size: 11px;
-  background-color: dimgray;
-}
+
 
 .bold {
   font-weight: bold;
@@ -48,7 +43,6 @@ body {
   margin: 0px;
 }
 
-
 .white {
   color: white;
 }
@@ -58,4 +52,8 @@ body {
 
 .dimgrey {
   background-color: dimgrey;
+}
+
+.inline li{
+  display: inline;
 }
